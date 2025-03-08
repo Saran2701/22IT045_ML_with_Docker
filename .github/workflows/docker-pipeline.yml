@@ -1,0 +1,8 @@
+name: docker-pipeline-saran
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print-your-name
+        run: echo "Hello-World - 22IT045"
