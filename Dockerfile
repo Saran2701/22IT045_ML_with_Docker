@@ -6,6 +6,6 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install -u scikit-learn joblin
+RUN pip install scikit-learn joblib
 
 CMD ["python", "ml-model.py"]
