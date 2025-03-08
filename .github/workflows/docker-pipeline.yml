@@ -15,5 +15,3 @@ jobs:
 
       - name: Docker images
         run: docker images 
-
-      
