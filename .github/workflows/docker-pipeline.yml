@@ -6,3 +6,14 @@ jobs:
     steps:
       - name: print-your-name
         run: echo "Hello-World - 22IT045"
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Docker build
+        run: docker build -t ssaran2701/ml-model-22it045 .
+
+      - name: Docker images
+        run: docker images 
+
+      
